@@ -38,7 +38,7 @@ Note: some environments or institutional policies disallow piping a remote scrip
 
 #### Manual PATH updates
 * On `Windows,` please check the `Add Julia to Path` checkbox during installation. This will allow you to run Julia from the command line.
-* On `MacOS,` please follow the instructions to add Julia to your path found [here](https://julialang.org/downloads/platform/#macos). This will allow you to run Julia from the command line.
+* On `macOS,` please follow the instructions to add Julia to your path found [here](https://julialang.org/downloads/platform/#macos). This will allow you to run Julia from the command line.
 
 ## Installing Anaconda
 This course uses [Anaconda](https://www.anaconda.com/products/individual) as a Python distribution. You can find the installation instructions for Anaconda [here](https://docs.anaconda.com/anaconda/install/). If you still need a Python installation on your machine, we recommend installing [Anaconda](https://www.anaconda.com/products/individual).  
@@ -46,7 +46,7 @@ This course uses [Anaconda](https://www.anaconda.com/products/individual) as a P
 ## Installing Visual Studio Code
 This course uses [Visual Studio Code](https://code.visualstudio.com) as a code editor. You can find the installation instructions for Visual Studio Code [here](https://code.visualstudio.com/download). 
 * Once you install Visual Studio Code, you must install the [Julia extension](https://www.julia-vscode.org) for Visual Studio Code. You can find the installation instructions for the Julia extension [here](https://www.julia-vscode.org/docs/stable/gettingstarted/).
-* you'll also need to install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for Visual Studio Code. You can find the installation instructions for the Python extension [here](https://code.visualstudio.com/docs/languages/python).
+* You'll also need to install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for Visual Studio Code. You can find the installation instructions for the Python extension [here](https://code.visualstudio.com/docs/languages/python).
 * Once you have installed [Anaconda](https://www.anaconda.com/products/individual), you can install the [IJulia](https://github.com/JuliaLang/IJulia.jl) package, which will allow you to use [Jupyter](https://jupyter.org) with [Julia](https://julialang.org). To do this, open the `Julia REPL` (which you can open by typing `julia` in the terminal window in VSCode) and type the following commands:
 
 ```julia
@@ -67,9 +67,9 @@ Once you have installed the software listed above, you can test your installatio
 3. **Understand the course structure** - The notebook has a structure similar to problem sets and most labs we'll do throughout the course. There's a student version (which initially fails some tests and requires you to make changes) and a solution version for reference
 
 To get started:
-1. Open the `CHEME-5800-L1b-Student-TestNotebook-Fall-2025.ipynb` file in VSCode
-2. Work through the notebook cells sequentially 
-3. Run the test suite at the end to see which components need attention
+1. Open the `CHEME-5800-L1b-Student-TestNotebook-Fall-2025.ipynb` file in VSCode (make sure to have the Jupyter extension installed in VSCode)
+2. Let's work through the notebook cells sequentially
+3. Run the test suite to see which components need attention
 4. Make the necessary changes to get all tests passing
 
 This hands-on approach will give you confidence that your development environment is ready for the course ahead!
