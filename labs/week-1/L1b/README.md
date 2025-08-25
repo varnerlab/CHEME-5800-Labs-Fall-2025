@@ -6,7 +6,7 @@ This lab will walk you through the CHEME 4/5800 toolchain installation. This too
 * [Visual Studio Code](https://code.visualstudio.com) - a code editor that supports various programming languages and file formats. We'll use VSCode to write and edit code in the course.
 * [Anaconda](https://www.anaconda.com/products/individual) - a Python distribution that includes the [Jupyter Notebook](https://jupyter.org) and [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) interactive development notebook environments.
 
-After installing these tools, our stretch goal is to test our installation by running a simple ["Hello World"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) program written in Julia. However, if we don't finish today, we'll do it in the next lab.
+__Stretch goal:__ After installing these tools, our stretch goal is to test our installation by running a simple ["Hello World"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) program written in Julia. However, if we don't finish today, we'll do it in the next lab.
 
 Let's go!
 ___
@@ -32,7 +32,7 @@ curl -fsSL https://install.julialang.org | sh
 julia --version
 ```
 
-> If you cannot use juliaup, download the Julia installer/tarball [from julialang.org](https://julialang.org/install/) and add the `.../bin` directory to your PATH manually (see §6 and Appendix).
+> If you cannot use juliaup, download the Julia installer/tarball [from julialang.org](https://julialang.org/install/) and add the `.../bin` directory to your PATH manually (see below).
 
 Note: some environments or institutional policies disallow piping a remote script directly to `sh`. If that applies to you, download the juliaup installer or the Julia tarball directly from https://julialang.org and follow the manual installation instructions instead.
 
