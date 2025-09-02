@@ -1,31 +1,28 @@
 # setup paths -
-const _ROOT = pwd();
+const _ROOT = @__DIR__;
+const _PATH_TO_DATA = joinpath(_ROOT, "data");
 const _PATH_TO_SRC = joinpath(_ROOT, "src");
 
-# check:
-const _DID_INCLUDE_GET_CALLED = true; # only true if this file was called
-
-# check do we have a Manifest.toml file?
+# if we are missing any packages, install them -
 using Pkg;
 if (isfile(joinpath(_ROOT, "Manifest.toml")) == false) # have manifest file, we are good. Otherwise, we need to instantiate the environment
     Pkg.add(path="https://github.com/varnerlab/VLDataScienceMachineLearningPackage.jl.git")
     Pkg.activate("."); Pkg.resolve(); Pkg.instantiate(); Pkg.update();
 end
 
-# load external packages
+# load external packages -
 using VLDataScienceMachineLearningPackage
-using CSV
-using DataFrames
+using JSON
+using JLD2
 using FileIO
-using StatsPlots
-using Plots
-using Colors
+using KernelFunctions
+using PrettyTables
+using DataFrames
+using Test
+using Random
 using Statistics
 using LinearAlgebra
-using Distances
-using JLD2
-using PrettyTables
-using Clustering
-using Distributions
-using Unicode
-using Test
+using BenchmarkTools
+using Plots
+using Colors
+using DataStructures
