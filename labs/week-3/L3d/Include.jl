@@ -26,3 +26,6 @@ using BenchmarkTools
 using Plots
 using Colors
 using DataStructures
+
+# include my codes -
+include(joinpath(_PATH_TO_SRC, "Compute.jl"));
