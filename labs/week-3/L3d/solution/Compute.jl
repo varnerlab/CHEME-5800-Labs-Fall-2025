@@ -26,7 +26,7 @@ function bubblesort(array::Array{T,1})::Array{T,1} where T <: Number
     swapped = true;
     n = N;
 
-    # TODO: For loop implementation of bubblesort
+    # TODO: Nested for loop implementation of bubblesort
     # for i ∈ 1:N        
     #     for j ∈ 1:N-i
     #         if arr[j] > arr[j+1]
@@ -46,8 +46,6 @@ function bubblesort(array::Array{T,1})::Array{T,1} where T <: Number
         end
         n -= 1 # after each pass, the largest element is in its correct position, reduce the range of comparison
     end
-
-
 
     # return sorted array -
     return arr
