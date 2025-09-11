@@ -25,8 +25,29 @@ function bubblesort(array::Array{T,1})::Array{T,1} where T <: Number
     N = length(arr) # how many elements in the array?
 
     # TODO: implement the bubble sort algorithm here
+    for i in 1:N-1
+        for j in 1:(N-i)
+            if arr[j] > arr[j+1]
+                _swap!(arr, j, j+1)
+            end
+        end
+    end
+        
+    end
+
+
+    while swapped == true
+        swapped = false
+        for j in 1:(N-1)
+            if arr[j] > arr[j+1]
+            _swap!(arr, j, j+1)
+            swapped = true
+            end
+        end
+
+        
     # TODO: comment out the line below when you implement the algorithm
-    throw(ErrorException("Bubblesort: Implement me!"))
+    #throw(ErrorException("Bubblesort: Implement me!"))
 
     # return sorted array -
     return arr
