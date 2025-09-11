@@ -23,21 +23,31 @@ function bubblesort(array::Array{T,1})::Array{T,1} where T <: Number
     # initialize -
     arr = copy(array) # make a copy of the array
     N = length(arr) # how many elements in the array?
-    swapped == true;
-    n = N;
 
     # TODO: implement the bubble sort algorithm here
-  # TODO: While loop implementation of bubblesort (see pseudocode in lab document)
-    while swapped == true
-        swapped = false
-        for j ∈ 1:n-1
+    for i in 1:N-1
+        for j in 1:(N-i)
             if arr[j] > arr[j+1]
                 _swap!(arr, j, j+1)
-                swapped = true
             end
         end
-        n -= 1 # after each pass, the largest element is in its correct position, reduce the range of comparison
     end
+        
+    end
+
+
+    while swapped == true
+        swapped = false
+        for j in 1:(N-1)
+            if arr[j] > arr[j+1]
+            _swap!(arr, j, j+1)
+            swapped = true
+            end
+        end
+
+        
+    # TODO: comment out the line below when you implement the algorithm
+    #throw(ErrorException("Bubblesort: Implement me!"))
 
     # return sorted array -
     return arr
