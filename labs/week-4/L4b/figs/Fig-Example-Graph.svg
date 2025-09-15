@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="403px" height="219px" viewBox="0 0 403 219" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Graphs</title>
+    <g id="Graphs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(29, 98)">
+            <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="23"></rect>
+            <circle id="Oval" fill="#000000" cx="12" cy="12" r="3"></circle>
+        </g>
+        <g id="Group-3" transform="translate(109, 32)">
+            <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="23"></rect>
+            <circle id="Oval" fill="#000000" cx="12" cy="12" r="3"></circle>
+        </g>
+        <g id="Group-3" transform="translate(233, 32)">
+            <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="23"></rect>
+            <circle id="Oval" fill="#000000" cx="12" cy="12" r="3"></circle>
+        </g>
+        <g id="Group-3" transform="translate(357, 31)">
+            <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="23"></rect>
+            <circle id="Oval" fill="#000000" cx="12" cy="12" r="3"></circle>
+        </g>
+        <g id="Group-3" transform="translate(109, 163)">
+            <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="23"></rect>
+            <circle id="Oval" fill="#000000" cx="12" cy="12" r="3"></circle>
+        </g>
+        <g id="Group-3" transform="translate(233, 163)">
+            <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="23"></rect>
+            <circle id="Oval" fill="#000000" cx="12" cy="12" r="3"></circle>
+        </g>
+        <text id="5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#040404">
+            <tspan x="241.106934" y="205">5</tspan>
+        </text>
+        <text id="3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#040404">
+            <tspan x="117.106934" y="205">3</tspan>
+        </text>
+        <path id="Line" d="M106.69769,55.5643045 L106.355471,56.3846762 L102.821674,64.8559382 L102.629176,65.3173972 L101.706258,64.9324009 L101.898756,64.4709418 L104.698,57.76 L99.9479797,61.472014 L41.807822,106.894012 L41.4138098,107.201834 L40.7981658,106.41381 L41.192178,106.105988 L99.3323356,60.6839897 L104.081,56.973 L96.8945402,58.0655452 L96.4002157,58.1406665 L96.2499732,57.1520173 L96.7442978,57.076896 L105.818891,55.6978534 L106.69769,55.5643045 Z" fill="#000000" fill-rule="nonzero"></path>
+        <path id="Line" d="M106.715892,113.588081 L106.357577,114.401552 L102.657577,122.801552 L102.456025,123.259129 L101.540871,122.856025 L101.742423,122.398448 L104.673,115.745 L99.8509711,119.361772 L41.8,162.9 L41.4,163.2 L40.8,162.4 L41.2,162.1 L99.2509711,118.561772 L104.073,114.944 L96.8653682,115.895709 L96.3696596,115.961077 L96.2389232,114.96966 L96.7346318,114.904291 L105.834632,113.704291 L106.715892,113.588081 Z" transform="translate(73.5, 138.5) scale(1, -1) translate(-73.5, -138.5)" fill="#000000" fill-rule="nonzero"></path>
+        <path id="Line" d="M220.809343,38.3190816 L221.245131,38.5642122 L229.245131,43.0642122 L230.019864,43.5 L229.245131,43.9357878 L221.245131,48.4357878 L220.809343,48.6809184 L220.319082,47.8093429 L220.754869,47.5642122 L227.089,44 L133,44 L133,43 L227.093,43 L220.754869,39.4357878 L220.319082,39.1906571 L220.809343,38.3190816 Z" fill="#000000" fill-rule="nonzero"></path>
+        <path id="Line" d="M220.809343,169.819082 L221.245131,170.064212 L229.245131,174.564212 L230.019864,175 L229.245131,175.435788 L221.245131,179.935788 L220.809343,180.180918 L220.319082,179.309343 L220.754869,179.064212 L227.091,175.5 L132,175.5 L132,174.5 L227.091,174.5 L220.754869,170.935788 L220.319082,170.690657 L220.809343,169.819082 Z" fill="#000000" fill-rule="nonzero"></path>
+        <path id="Line" d="M169.285979,97.8539336 L169.722871,98.0970899 L177.743151,102.560845 L178.519849,102.993123 L177.747095,103.432412 L169.767539,107.968564 L169.332864,108.215664 L168.838664,107.346316 L169.273339,107.099216 L175.593,103.506 L169.506728,103.533911 L66.5022624,103.999995 L66.0022675,104.002257 L65.9977427,103.002268 L66.4977376,103.000005 L169.502203,102.533922 L175.589,102.506 L169.236559,98.9708749 L168.799666,98.7277186 L169.285979,97.8539336 Z" transform="translate(121.5, 103) scale(-1, -1) rotate(-90) translate(-121.5, -103)" fill="#000000" fill-rule="nonzero"></path>
+        <path id="Line" d="M196.190657,110.819082 L196.680918,111.690657 L196.245131,111.935788 L189.908,115.5 L302,115.5 L302,116.5 L189.908,116.5 L196.245131,120.064212 L196.680918,120.309343 L196.190657,121.180918 L195.754869,120.935788 L187.754869,116.435788 L186.980136,116 L187.754869,115.564212 L195.754869,111.064212 L196.190657,110.819082 Z" transform="translate(245, 116) scale(-1, -1) rotate(-90) translate(-245, -116)" fill="#000000" fill-rule="nonzero"></path>
+        <path id="Line" d="M345.809343,38.3190816 L346.245131,38.5642122 L354.245131,43.0642122 L355.019864,43.5 L354.245131,43.9357878 L346.245131,48.4357878 L345.809343,48.6809184 L345.319082,47.8093429 L345.754869,47.5642122 L352.091,44 L257,44 L257,43 L352.091,43 L345.754869,39.4357878 L345.319082,39.1906571 L345.809343,38.3190816 Z" fill="#000000" fill-rule="nonzero"></path>
+        <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="29.5" y="98.5" width="23" height="23"></rect>
+        <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="109.5" y="32.5" width="23" height="23"></rect>
+        <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="233.5" y="32.5" width="23" height="23"></rect>
+        <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="357.5" y="31.5" width="23" height="23"></rect>
+        <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="109.5" y="163.5" width="23" height="23"></rect>
+        <rect id="Rectangle" stroke="#EF4035" fill="#FFFFFF" x="233.5" y="163.5" width="23" height="23"></rect>
+        <text id="1" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#040404">
+            <tspan x="15.1069336" y="116">1</tspan>
+        </text>
+        <text id="2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#040404">
+            <tspan x="117.106934" y="26">2</tspan>
+        </text>
+        <text id="4" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#040404">
+            <tspan x="241.106934" y="26">4</tspan>
+        </text>
+        <text id="6" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#040404">
+            <tspan x="365.106934" y="26">6</tspan>
+        </text>
+    </g>
+</svg>
