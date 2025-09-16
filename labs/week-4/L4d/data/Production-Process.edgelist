@@ -1,0 +1,21 @@
+# Edge file for a hypothetical production process
+# Record: source, target, cost
+# source: 1 = start node, target: 9 = end node
+# wij: cost of completing step i to step j. 
+
+# start, and project completion
+1,2,1
+
+# idea 1: fewer steps, but has expensive steps
+2,3,4
+3,4,8
+4,5,2
+
+# idea 2: more steps, but cheaper steps
+2,6,2
+6,7,2
+7,8,2
+8,5,2
+
+# end
+5,9,1 
