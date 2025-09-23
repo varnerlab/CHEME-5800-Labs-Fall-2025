@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="754px" height="465px" viewBox="0 0 754 465" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shortestpath</title>
+    <g id="Shortestpath" stroke="none" fill="none" fill-rule="evenodd" stroke-width="1">
+        <g id="Group" transform="translate(15, 26)">
+            <g transform="translate(0, 177)">
+                <circle id="Oval" stroke="#6EB43F" stroke-width="3" fill="#6EB43F" cx="36" cy="36" r="34.5"></circle>
+                <text id="1" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="28.4277344" y="46">1</tspan>
+                </text>
+            </g>
+            <g transform="translate(157, 177)">
+                <circle id="Oval" stroke="#55565A" stroke-width="3" cx="36" cy="36" r="34.5"></circle>
+                <text id="2" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#55565A">
+                    <tspan x="28.4277344" y="46">2</tspan>
+                </text>
+            </g>
+            <g transform="translate(157, 1)">
+                <circle id="Oval" stroke="#55565A" stroke-width="3" fill="#55565A" cx="36" cy="36" r="34.5"></circle>
+                <text id="3" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="28.4277344" y="46">3</tspan>
+                </text>
+            </g>
+            <g transform="translate(157, 342)">
+                <circle id="Oval" stroke="#55565A" stroke-width="3" fill="#BDBBBB" cx="36" cy="36" r="34.5"></circle>
+                <text id="5" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#55565A">
+                    <tspan x="28.4277344" y="46">6</tspan>
+                </text>
+            </g>
+            <g transform="translate(313, 342)">
+                <circle id="Oval" stroke="#55565A" stroke-width="3" fill="#BDBBBB" cx="36" cy="36" r="34.5"></circle>
+                <text id="7" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#55565A">
+                    <tspan x="28.4277344" y="46">7</tspan>
+                </text>
+            </g>
+            <g transform="translate(470, 342)">
+                <circle id="Oval" stroke="#55565A" stroke-width="3" fill="#BDBBBB" cx="36" cy="36" r="34.5"></circle>
+                <text id="8" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#55565A">
+                    <tspan x="28.4277344" y="46">8</tspan>
+                </text>
+            </g>
+            <g transform="translate(470, 0)">
+                <circle id="Oval" stroke="#55565A" stroke-width="3" fill="#55565A" cx="36" cy="36" r="34.5"></circle>
+                <text id="4" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="28.4277344" y="46">4</tspan>
+                </text>
+            </g>
+            <g transform="translate(470, 177)">
+                <circle id="Oval" stroke="#55565A" stroke-width="3" cx="36" cy="36" r="34.5"></circle>
+                <text id="5" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#55565A">
+                    <tspan x="29.4277344" y="46">5</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(646, 177)">
+                <circle id="Oval" stroke="#ED4036" stroke-width="3" fill="#ED4036" cx="36" cy="36" r="34.5"></circle>
+                <text id="9" font-family="Helvetica-Bold, Helvetica" font-size="28" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="28.4277344" y="47">9</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(81, 213)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M52.3686857,-7.61183678 L53.2402612,-7.12157554 L65.2402612,-0.371575537 L66.7897289,0.5 L65.2402612,1.37157554 L53.2402612,8.12157554 L52.3686857,8.61183678 L51.3881632,6.8686857 L52.2597388,6.37842446 L60.932,1.5 L-1,1.5 L-1,-0.5 L60.932,-0.5 L52.2597388,-5.37842446 L51.3881632,-5.8686857 L52.3686857,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(241, 36)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M205.368686,-7.61183678 L206.240261,-7.12157554 L218.240261,-0.371575537 L219.789729,0.5 L218.240261,1.37157554 L206.240261,8.12157554 L205.368686,8.61183678 L204.388163,6.8686857 L205.259739,6.37842446 L213.932,1.5 L-1,1.5 L-1,-0.5 L213.932,-0.5 L205.259739,-5.37842446 L204.388163,-5.8686857 L205.368686,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(242, 378)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M52.3686857,-7.61183678 L53.2402612,-7.12157554 L65.2402612,-0.371575537 L66.7897289,0.5 L65.2402612,1.37157554 L53.2402612,8.12157554 L52.3686857,8.61183678 L51.3881632,6.8686857 L52.2597388,6.37842446 L60.932,1.5 L-1,1.5 L-1,-0.5 L60.932,-0.5 L52.2597388,-5.37842446 L51.3881632,-5.8686857 L52.3686857,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(393, 379)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M52.3686857,-7.61183678 L53.2402612,-7.12157554 L65.2402612,-0.371575537 L66.7897289,0.5 L65.2402612,1.37157554 L53.2402612,8.12157554 L52.3686857,8.61183678 L51.3881632,6.8686857 L52.2597388,6.37842446 L60.932,1.5 L-1,1.5 L-1,-0.5 L60.932,-0.5 L52.2597388,-5.37842446 L51.3881632,-5.8686857 L52.3686857,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(194, 120.5) rotate(90) translate(-194, -120.5)translate(162, 120)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M11.6313143,-7.61183678 L12.6118368,-5.8686857 L11.7402612,-5.37842446 L3.068,-0.5 L65,-0.5 L65,1.5 L3.068,1.5 L11.7402612,6.37842446 L12.6118368,6.8686857 L11.6313143,8.61183678 L10.7597388,8.12157554 L-1.24026124,1.37157554 L-2.78972886,0.5 L-1.24026124,-0.371575537 L10.7597388,-7.12157554 L11.6313143,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(193, 294.5) rotate(90) translate(-193, -294.5)translate(161, 294)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M52.3686857,-7.61183678 L53.2402612,-7.12157554 L65.2402612,-0.371575537 L66.7897289,0.5 L65.2402612,1.37157554 L53.2402612,8.12157554 L52.3686857,8.61183678 L51.3881632,6.8686857 L52.2597388,6.37842446 L60.932,1.5 L-1,1.5 L-1,-0.5 L60.932,-0.5 L52.2597388,-5.37842446 L51.3881632,-5.8686857 L52.3686857,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(508, 295.5) rotate(90) translate(-508, -295.5)translate(476, 295)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M11.6313143,-7.61183678 L12.6118368,-5.8686857 L11.7402612,-5.37842446 L3.068,-0.5 L65,-0.5 L65,1.5 L3.068,1.5 L11.7402612,6.37842446 L12.6118368,6.8686857 L11.6313143,8.61183678 L10.7597388,8.12157554 L-1.24026124,1.37157554 L-2.78972886,0.5 L-1.24026124,-0.371575537 L10.7597388,-7.12157554 L11.6313143,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(507, 121.5) rotate(90) translate(-507, -121.5)translate(475, 121)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M52.3686857,-7.61183678 L53.2402612,-7.12157554 L65.2402612,-0.371575537 L66.7897289,0.5 L65.2402612,1.37157554 L53.2402612,8.12157554 L52.3686857,8.61183678 L51.3881632,6.8686857 L52.2597388,6.37842446 L60.932,1.5 L-1,1.5 L-1,-0.5 L60.932,-0.5 L52.2597388,-5.37842446 L51.3881632,-5.8686857 L52.3686857,-7.61183678 Z"></path>
+            </g>
+            <g id="Group-5" transform="translate(562, 213)" fill="#000000" fill-rule="nonzero">
+                <path id="Line" d="M52.3686857,-7.61183678 L53.2402612,-7.12157554 L65.2402612,-0.371575537 L66.7897289,0.5 L65.2402612,1.37157554 L53.2402612,8.12157554 L52.3686857,8.61183678 L51.3881632,6.8686857 L52.2597388,6.37842446 L60.932,1.5 L-1,1.5 L-1,-0.5 L60.932,-0.5 L52.2597388,-5.37842446 L51.3881632,-5.8686857 L52.3686857,-7.61183678 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
