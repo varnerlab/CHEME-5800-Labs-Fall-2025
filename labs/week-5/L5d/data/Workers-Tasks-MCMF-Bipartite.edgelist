@@ -1,0 +1,44 @@
+# Edge file for Balanced Bipartite Graph
+# Record: source, target, cost, lb capacity, ub capacity
+# source: 1 = source node, 2,3,4 = people nodes, 5,6,7 = job nodes, 8,9,10 = sink nodes
+# wij: cost of assigning person i to job j. If negative, faculty i prefers course j, 0 indicates no preference, 
+# positive indicates dislike.
+
+# edges for start node: 1 (source node) to people node 2,3,4
+1,2,0,0,1
+1,3,0,0,1
+1,4,0,0,1
+
+# edges for end nodes 8... (jobs to sink nodes)
+5,9,1,0,1
+6,10,1,0,1
+7,11,1,0,1
+8,12,1,0,1
+
+# final sink -
+9,13,0,0,1
+10,13,0,0,1
+11,13,0,0,1
+12,13,0,0,1
+
+# --- PEOPLE TO TASKS BELOW HERE -------------------------------------- #
+
+# people node 2 (people 2 to jobs 5,6,7,8)
+2,5,1,0,1
+2,6,1,0,1
+2,7,1,0,1
+2,8,1,0,1
+
+# people node 3 (people 3 to jobs 5,6,7,9)
+3,5,1,0,1
+3,6,1,0,1
+3,7,1,0,1
+3,8,1,0,1
+
+# people node 4 (people 4 to jobs 5,6,7,8)
+4,5,1,0,1
+4,6,1,0,1
+4,7,1,0,1
+4,8,1,0,1
+
+# --- PEOPLE TO TASKS ABOVE HERE -------------------------------------- #
