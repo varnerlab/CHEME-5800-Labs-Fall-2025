@@ -1,0 +1,45 @@
+
+
+// Records in a VFF format
+// name,reactants,products,is_reversible
+// name: unique string identifier for the reactions
+// reactants: list of reactants, separated by '+', with the stoichiometric coefficient before each metabolite
+// products: list of products, separated by '+', with the stoichiometric coefficient before each metabolite
+// is_reversible: true if the reaction is reversible, false otherwise
+//
+// Notes:
+// 1. The stoichiometric coefficients are optional, and if not provided, they default to 1.
+// 2. [] denotes an empty list of reactants or products (surroundings)
+// 3. The metabolite names are unique and case sensitive
+
+// EC 6.3.4.5
+v1,M_ATP_c+M_L-Citrulline_c+M_L-Aspartate_c,M_AMP_c+M_Diphosphate_c+M_N-(L-Arginino)succinate_c,false
+
+// EC 4.3.2.1
+v2,M_N-(L-Arginino)succinate_c,M_Fumarate_c+M_L-Arginine_c,false
+
+// EC 3.5.3.1
+v3,M_L-Arginine_c+M_H2O_c,M_L-Ornithine_c+M_Urea_c,false
+
+// EC 2.1.3.3
+v4,M_Carbamoyl_phosphate_c+M_L-Ornithine_c,M_Orthophosphate_c+M_L-Citrulline_c,false
+
+// EC 1.15.13.39
+v5,2*M_L-Arginine_c+4*M_Oxygen_c+3*M_NADPH_c+3*M_H_c,2*M_Nitric_oxide_c+2*M_L-Citrulline_c+3*M_NADP_c+4*M_H2O_c,true
+
+// Exchange reactions -
+// By default, all exchange reactions are reversible, from the surroundings to the system
+b1,[],M_Carbamoyl_phosphate_c,true
+b2,[],M_L-Aspartate_c,true
+b3,[],M_Fumarate_c,true
+b4,[],M_Urea_c,true
+b5,[],M_ATP_c,true
+b6,[],M_AMP_c,true
+b7,[],M_Diphosphate_c,true
+b8,[],M_Orthophosphate_c,true
+b9,[],M_Oxygen_c,true
+b10,[],M_NADPH_c,true
+b11,[],M_H_c,true
+b12,[],M_Nitric_oxide_c,true
+b13,[],M_NADP_c,true
+b14,[],M_H2O_c,true
