@@ -28,13 +28,10 @@ function _mysolve(A::AbstractMatrix{T}, b::AbstractVector{T}, xₒ::AbstractVect
         # compute the residual -
         x = copy(archive[k-1]);
 
-        # TODO: Implement the computation of the residual and direction vector
+        # TODO: Implement the computation of the residual, norm of the residual, and direction vector
         # TODO: Comment out the throws line after implementing the computation of r and d
-        # throw(ErrorException("Ooops!: Implement the Jacobi computation of the residual and direction vector"));
+        throw(ErrorException("Ooops!: You need to implement the JacobiMethod"));
 
-        r = b - A*x;
-        current_residual = norm(r);
-        d = DI * r;
 
         # check the error condition -
         if (current_residual < ϵ)
@@ -59,7 +56,7 @@ function _mysolve(A::AbstractMatrix{T}, b::AbstractVector{T}, xₒ::AbstractVect
     return archive;
 end
 
-function _myssolve(A::AbstractMatrix{T}, b::AbstractVector{T}, xₒ::AbstractVector{T}, algorithm::MyGaussSeidelMethod;
+function _mysolve(A::AbstractMatrix{T}, b::AbstractVector{T}, xₒ::AbstractVector{T}, algorithm::MyGaussSeidelMethod;
     ϵ::Float64 = 1e-6, maxiterations::Int64 = 1000, ω::Float64 = 1.0) where T <: Number
 
     # initialize -
@@ -87,14 +84,11 @@ function _myssolve(A::AbstractMatrix{T}, b::AbstractVector{T}, xₒ::AbstractVec
     while (is_ok_to_terminate == false)
 
         x = copy(archive[k-1]); # grab the current solution vector, create a copy so we don't overwrite the data in the archive
-        
-        
-        # TODO: Implement the computation of the residual and direction vector
+
+
+        # TODO: Implement the computation of the residual, norm of the residual, and direction vector
         # TODO: Comment out the throws line after implementing the computation of r and d
-        # throw(ErrorException("Ooops!: Implement the GaussSeidelMethod computation of the residual and direction vector"));
-        r = b - A*x; # compute the residual
-        current_residual = norm(r);
-        d = C * r; # compute the direction vector
+        throw(ErrorException("Ooops!: You need to implement the GaussSeidelMethod"));
 
         # check the error condition -
         if (current_residual < ϵ)

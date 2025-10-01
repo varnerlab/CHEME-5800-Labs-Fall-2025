@@ -1,4 +1,4 @@
 abstract type MyAbstractLinearSolverAlgorithm end
-struct JacobiMethod <: MyAbstractLinearSolverAlgorithm end
-struct GaussSeidelMethod <: MyAbstractLinearSolverAlgorithm end
-struct SuccessiveOverRelaxationMethod <: MyAbstractLinearSolverAlgorithm end
+struct MyJacobiMethod <: MyAbstractLinearSolverAlgorithm end
+struct MyGaussSeidelMethod <: MyAbstractLinearSolverAlgorithm end
+struct MySuccessiveOverRelaxationMethod <: MyAbstractLinearSolverAlgorithm end
