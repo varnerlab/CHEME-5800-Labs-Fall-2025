@@ -30,7 +30,10 @@ function _mysolve(A::AbstractMatrix{T}, b::AbstractVector{T}, xₒ::AbstractVect
 
         # TODO: Implement the computation of the residual, norm of the residual, and direction vector
         # TODO: Comment out the throws line after implementing the computation of r and d
-        throw(ErrorException("Ooops!: You need to implement the JacobiMethod"));
+        # throw(ErrorException("Ooops!: You need to implement the JacobiMethod"));
+        r = b - A*x;
+        current_residual = norm(r);
+        d = DI * r;
 
 
         # check the error condition -
@@ -88,7 +91,10 @@ function _mysolve(A::AbstractMatrix{T}, b::AbstractVector{T}, xₒ::AbstractVect
 
         # TODO: Implement the computation of the residual, norm of the residual, and direction vector
         # TODO: Comment out the throws line after implementing the computation of r and d
-        throw(ErrorException("Ooops!: You need to implement the GaussSeidelMethod"));
+        # throw(ErrorException("Ooops!: You need to implement the GaussSeidelMethod"));
+        r = b - A*x;
+        current_residual = norm(r);
+        d = C * r;
 
         # check the error condition -
         if (current_residual < ϵ)
