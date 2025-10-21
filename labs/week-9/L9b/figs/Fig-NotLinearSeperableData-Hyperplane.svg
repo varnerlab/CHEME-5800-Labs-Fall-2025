@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="538px" height="406px" viewBox="0 0 538 406" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path id="Line" d="M56.5,9.44040671 L57.8073633,11.7646081 L66.8073633,27.7646081 L67.5427552,29.0719714 L64.9280286,30.5427552 L64.1926367,29.2353919 L58,18.226 L58,389 L55,389 L55,18.226 L48.8073633,29.2353919 L48.0719714,30.5427552 L45.4572448,29.0719714 L46.1926367,27.7646081 L55.1926367,11.7646081 L56.5,9.44040671 Z" fill="#000000" fill-rule="nonzero"></path>
+        <path id="Line" d="M512.938726,344.442176 L514.245377,345.178833 L530.236657,354.194317 L532.559591,355.50393 L530.234125,356.809043 L514.22542,365.79355 L512.917346,366.527675 L511.449094,363.911526 L512.757169,363.1774 L523.771,356.995 L513.500459,356.98548 L11.9985479,356.499999 L10.4985486,356.498547 L10.5014528,353.498549 L12.0014521,353.500001 L513.503364,353.985482 L523.775,353.995 L512.772062,347.792134 L511.465412,347.055477 L512.938726,344.442176 Z" fill="#000000" fill-rule="nonzero"></path>
+        <text id="Coordinate-1" font-family="Helvetica-Light, Helvetica" font-size="20" font-weight="300" fill="#000000">
+            <tspan x="396" y="389">Coordinate 1</tspan>
+        </text>
+        <text id="Class-1" font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
+            <tspan x="358" y="177">Class 1</tspan>
+        </text>
+        <text id="Class-2" font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
+            <tspan x="358" y="209">Class 2</tspan>
+        </text>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="343" cy="170" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="343" cy="202" r="7.5"></circle>
+        <text id="Separating-Hyperplan" font-family="Helvetica-Light, Helvetica" font-size="18" font-weight="300" fill="#000000">
+            <tspan x="335" y="275">Separating Hyperplane</tspan>
+            <tspan x="335" y="297">(non-linear)</tspan>
+        </text>
+        <line x1="326.5" y1="284.5" x2="303.5" y2="306.5" id="Line-3" stroke="#979797" stroke-linecap="square"></line>
+        <text id="Coordinate-2" transform="translate(29, 90) rotate(-90) translate(-29, -90)" font-family="Helvetica-Light, Helvetica" font-size="20" font-weight="300" fill="#000000">
+            <tspan x="-29" y="97">Coordinate 2</tspan>
+        </text>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="145" cy="77" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="204" cy="163" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="243" cy="170" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="198" cy="105" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="175" cy="152" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="251" cy="217" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="251" cy="266" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="210" cy="241" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="283" cy="280" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="224" cy="197" r="7.5"></circle>
+        <circle id="Oval" stroke="#FA6400" fill="#FA6400" cx="220" cy="133" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="267" cy="318" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="153" cy="302" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="212" cy="306" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="190" cy="199" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="108" cy="161" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="124" cy="105" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="119" cy="273" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="163" cy="223" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="187" cy="275" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="145" cy="186" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="106" cy="224" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="151" cy="251" r="7.5"></circle>
+        <circle id="Oval" stroke="#44D7B6" fill="#44D7B6" cx="149" cy="117" r="7.5"></circle>
+        <path d="M89.5,84.5 C164.5,88.1666667 185.666667,109 153,147 C138.444495,163.931914 200.314977,173.31243 206,199.5 C207.508602,206.449246 200.231138,217.330591 194,226 C178.666667,247.333333 220.5,280.5 319.5,325.5" id="Line-4" stroke="#000000" stroke-width="3" stroke-linecap="square" stroke-dasharray="6"></path>
+    </g>
+</svg>
