@@ -83,19 +83,18 @@ It returns the results of the game and the updated weights of the experts.
     - The second column is the action of the column player (adversary).
 - `weights::Array{Float64,2}`: A 2D array containing the updated weights of the experts after each round.
 """
-
 function play(model::MyTwoPersonZeroSumGameModel)
 
     # initialize -
     n = model.n; # how many experts do we have?
     T = model.T; # how many rounds do we play?
     ϵ = model.ϵ; # learning rate
-    weights = copy(model.weights); # weights of the experts (copied to avoid overwriting model)
+    weights = model.weights; # weights of the experts
     M = model.payoffmatrix; # payoff matrix
     L = -M; # loss matrix
     results_array = zeros(Int64, T, 2); # aggregator predictions
 
- # main simulation loop -
+    # main simulation loop -
     for t ∈ 1:T
        
         # compute the probability vector p -
