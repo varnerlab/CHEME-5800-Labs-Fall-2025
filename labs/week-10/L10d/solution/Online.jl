@@ -1,3 +1,18 @@
+"""
+    function play(model::MyBinaryWeightedMajorityAlgorithmModel, 
+        data::Array{Float64,2})::Tuple{Array{Int64,2}, Array{Float64,2}}
+
+This method plays the online learning game using the `MyBinaryWeightedMajorityAlgorithmModel` instance and the provided data. 
+It returns the results of the game and the updated weights of the experts.
+
+### Arguments
+- `model::MyBinaryWeightedMajorityAlgorithmModel`: An instance of the `MyBinaryWeightedMajorityAlgorithmModel` type.
+- `data::Array{Float64,2}`: A 2D array containing the data for the game.
+
+### Returns 
+- `results_array::Array{Int64,2}`: A 2D array containing the results of the game. Each row corresponds to a round, and the columns contain:
+- `weights::Array{Float64,2}`: A 2D array containing the updated weights of the experts after each round.
+"""
 function play(model::MyBinaryWeightedMajorityAlgorithmModel, 
     data::Array{Float64,2})
 
@@ -53,6 +68,21 @@ function play(model::MyBinaryWeightedMajorityAlgorithmModel,
     return (results_array, weights);
 end
 
+"""
+    function play(model::MyTwoPersonZeroSumGameModel)::Tuple{Array{Int64,2}, Array{Float64,2}}
+
+This method plays the two-person zero-sum game using the `MyTwoPersonZeroSumGameModel` instance. 
+It returns the results of the game and the updated weights of the experts.
+
+### Arguments
+- `model::MyTwoPersonZeroSumGameModel`: An instance of the `MyTwoPersonZeroSumGameModel` type.
+
+### Returns 
+- `results_array::Array{Int64,2}`: A 2D array containing the results of the game. Each row corresponds to a round, and the columns contain:
+    - The first column is the action of the row player (aggregator).
+    - The second column is the action of the column player (adversary).
+- `weights::Array{Float64,2}`: A 2D array containing the updated weights of the experts after each round.
+"""
 function play(model::MyTwoPersonZeroSumGameModel)
 
     # initialize -
@@ -61,6 +91,7 @@ function play(model::MyTwoPersonZeroSumGameModel)
     ϵ = model.ϵ; # learning rate
     weights = model.weights; # weights of the experts
     M = model.payoffmatrix; # payoff matrix
+    L = -M; # loss matrix
     results_array = zeros(Int64, T, 2); # aggregator predictions
 
     # main simulation loop -
@@ -69,27 +100,25 @@ function play(model::MyTwoPersonZeroSumGameModel)
         # compute the probability vector p -
         Φ = sum(weights[t, :]); # Φ is sum of the weights at time t
         p = weights[t, :]/Φ; # probability vector p
-        d = Categorical(p); # define the distribution
+        d = Categorical(p); # define the distribution 
         #results_array[t, 1] = argmax(p); # store the aggregator prediction (choose max probability)
         results_array[t, 1] = rand(d); # store the aggregator prediction (choose random according to the distribution)
         
-        # define q -
-        q = zeros(Float64, n);
-        for i ∈ 1:n
-            q[i] = sum(M[i, :].*p); # compute the expected payoff for each expert
-        end
-        qstar =  argmax(q);
+        # compute expected payoffs for column actions
+        q = transpose(p) * M |> vec;  # expected payoff for row player if column plays e_j
+        qstar = argmin(q); # column player chooses action to minimize row player's payoff
+        #qstar = argmax(q); # column player chooses action to maximize row player's payoff
         results_array[t, 2] = qstar; # store the adversary action
         
         q̄ = zeros(Float64, n);
         q̄[qstar] = 1.0; # action for the adversary
 
         # compute for 
-        m = -M*q̄;
+        l = L*q̄;
 
         # update the weights -
         for i ∈ 1:n
-            weights[t+1, i] = weights[t, i]*exp(-ϵ*m[i]);
+            weights[t+1, i] = weights[t, i]*exp(-ϵ*l[i]);
         end
     end
 

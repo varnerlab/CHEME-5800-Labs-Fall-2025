@@ -95,31 +95,9 @@ function play(model::MyTwoPersonZeroSumGameModel)
     results_array = zeros(Int64, T, 2); # aggregator predictions
 
     # main simulation loop -
-    for t ∈ 1:T
-       
-        # compute the probability vector p -
-        Φ = sum(weights[t, :]); # Φ is sum of the weights at time t
-        p = weights[t, :]/Φ; # probability vector p
-        d = Categorical(p); # define the distribution 
-        #results_array[t, 1] = argmax(p); # store the aggregator prediction (choose max probability)
-        results_array[t, 1] = rand(d); # store the aggregator prediction (choose random according to the distribution)
-        
-        # compute expected payoffs for column actions
-        q = transpose(p) * M;  # expected payoff for row player if column plays e_j
-        qstar = argmin(q);  # column player chooses action to minimize row player's payoff
-        results_array[t, 2] = qstar; # store the adversary action
-        
-        q̄ = zeros(Float64, n);
-        q̄[qstar] = 1.0; # action for the adversary
-
-        # compute for 
-        l = L*q̄;
-
-        # update the weights -
-        for i ∈ 1:n
-            weights[t+1, i] = weights[t, i]*exp(-ϵ*l[i]);
-        end
-    end
+    # TODO: implement the play method for the two-person zero-sum game model
+    # TODO: remove(delete or comment out) the error exception below once implemented
+    throw(ErrorException("Ooops! The play method is not implemented yet. Better fix that."))
 
     # return -
     return (results_array, weights);

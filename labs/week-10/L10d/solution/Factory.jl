@@ -1,3 +1,21 @@
+"""
+    function build(modeltype::Type{MyBinaryWeightedMajorityAlgorithmModel}, 
+        data::NamedTuple)::MyBinaryWeightedMajorityAlgorithmModel
+
+This method builds and returns an instance of the `MyBinaryWeightedMajorityAlgorithmModel` type.
+
+### Arguments
+- `modeltype::Type{MyBinaryWeightedMajorityAlgorithmModel}`: The model type to build.
+- `data::NamedTuple`: A named tuple containing the model parameters:
+    - `ϵ::Float64`: The learning rate.
+    - `n::Int`: The number of experts.
+    - `T::Int`: The number of rounds.
+    - `expert::Function`: The expert function.
+    - `adversary::Function`: The adversary function.
+
+### Returns 
+- `model::MyBinaryWeightedMajorityAlgorithmModel`: An instance of the `MyBinaryWeightedMajorityAlgorithmModel` type with the specified parameters.
+"""
 function build(modeltype::Type{MyBinaryWeightedMajorityAlgorithmModel}, 
     data::NamedTuple)
 
@@ -21,6 +39,23 @@ function build(modeltype::Type{MyBinaryWeightedMajorityAlgorithmModel},
     return model;
 end
 
+"""
+    function build(modeltype::Type{MyTwoPersonZeroSumGameModel}, 
+        data::NamedTuple)::MyTwoPersonZeroSumGameModel
+
+This method builds and returns an instance of the `MyTwoPersonZeroSumGameModel` type.
+
+### Arguments
+- `modeltype::Type{MyTwoPersonZeroSumGameModel}`: The model type to build.
+- `data::NamedTuple`: A named tuple containing the model parameters:
+    - `ϵ::Float64`: The learning rate.
+    - `n::Int`: The number of experts (actions).
+    - `T::Int`: The number of rounds.
+    - `payoffmatrix::Array{Float64,2}`: The payoff matrix.
+
+### Returns 
+- `model::MyTwoPersonZeroSumGameModel`: An instance of the `MyTwoPersonZeroSumGameModel` type with the specified parameters.
+"""
 function build(modeltype::Type{MyTwoPersonZeroSumGameModel},
     data::NamedTuple)
 
