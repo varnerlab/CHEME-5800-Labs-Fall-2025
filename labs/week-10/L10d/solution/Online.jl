@@ -101,8 +101,8 @@ function play(model::MyTwoPersonZeroSumGameModel)
         Φ = sum(weights[t, :]); # Φ is sum of the weights at time t
         p = weights[t, :]/Φ; # probability vector p
         d = Categorical(p); # define the distribution 
-        #results_array[t, 1] = argmax(p); # store the aggregator prediction (choose max probability)
-        results_array[t, 1] = rand(d); # store the aggregator prediction (choose random according to the distribution)
+        results_array[t, 1] = argmax(weights[t, :]); # store the aggregator prediction (choose max probability)
+        #results_array[t, 1] = rand(d); # store the aggregator prediction (choose random according to the distribution)
         
         # compute expected payoffs for column actions
         q = transpose(p) * M |> vec;  # expected payoff for row player if column plays e_j
