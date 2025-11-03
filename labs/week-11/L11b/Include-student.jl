@@ -10,7 +10,7 @@ if (isfile(joinpath(_ROOT, "Manifest.toml")) == false) # have manifest file, we 
 end
 
 # load the required packages -
-# using VLDataScienceMachineLearningPackage # did you catch this bug? (we reply this package, so we need to load with a using statement)
+# using VLDataScienceMachineLearningPackage # Sneaky! did you catch this bug? (we need this package, so we need to load with a using statement)
 using Distributions
 using Plots
 using Colors
