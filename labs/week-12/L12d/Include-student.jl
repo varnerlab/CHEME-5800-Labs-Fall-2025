@@ -23,6 +23,6 @@ using Random
 # Random.seed!(1234); # set the random seed for reproducibility
 
 # include my source files -
-include(joinpath(_PATH_TO_SOLN, "Types.jl"));
-include(joinpath(_PATH_TO_SOLN, "Factory.jl"));
-include(joinpath(_PATH_TO_SOLN, "Compute.jl"));
+include(joinpath(_PATH_TO_SRC, "Types.jl"));
+include(joinpath(_PATH_TO_SRC, "Factory.jl"));
+include(joinpath(_PATH_TO_SRC, "Compute.jl"));
